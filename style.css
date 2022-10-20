@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #191816;
+}
+
+main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carImg {
+  width: 50%;
+  object-fit: cover;
+}
+
+.logoImg {
+  margin: 30px 0px 0px 30px;
+  object-fit: cover;
+}
+
+aside {
+  position: absolute;
+  background: #24221f;
+  height: 454px;
+  width: 510px;
+
+  margin-top: 174px;
+  margin-left: -5px;
+  padding: 40px 0px 0px 0px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.titleForm {
+  display: flex;
+  color: #d4ccb6;
+  font-weight: 500;
+  font-size: 1.3em;
+  gap: 10px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: .8em;
+  margin-top: 6px;
+  color: #afb6c2;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  color: #afb6c2;
+  margin-top: 35px;
+
+  font-size: .8em;
+  font-weight: 600;
+  gap: 6px;
+}
+
+
+.input {
+  background: #24221f;
+  border: 1px solid #afb6c2 ;
+  border-radius: .2rem;
+  color: #afb6c2;
+
+  width: 300px;
+  height: 40px;
+  padding-left: 36px;
+  outline: none;
+}
+
+.input:focus {
+  border: 2px solid #ffc632;
+}
+
+.placeholderInput {
+  background-image: url(./images/mail.svg);
+  background-repeat: no-repeat;
+  background-position: 4%;
+  background-size: 19px;
+}
+
+.placeholderInput::placeholder {
+  font-size: .9em;
+}
+
+.placeholderInputPassword {
+  background-image: url(./images/lock.svg), url(./images/eye.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 4%, 97%;
+  background-size: 19px;
+}
+
+
+.placeholderInputPassword::placeholder {
+  font-size: .9em;
+}
+
+
+.password {
+  margin-top: -10px;
+}
+
+.aside {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.checkboxLassPassword {
+  margin-top: 20px;
+  display: flex;
+  font-size: .8em;
+  justify-content: space-between;
+  font-weight: 200;
+}
+
+.checkbox {
+  display: flex;
+  color: #afb6c2;
+  position: relative;
+}
+
+.remeber {
+  margin-left: 23px;
+  opacity: .9;
+}
+
+.inputCheckbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.check {
+  left: 0;
+  top: 0;
+  height: 17px;
+  width: 17px;
+  border: 1px solid #afb6c2;
+  position: absolute;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+
+.checkbox input:checked ~ .check {
+  background: #ffc632;
+}
+
+.checkbox .check:after {
+  top: 0px;
+  left: 4px;
+  width: 4px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.check:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked ~ .check:after {
+  display: block;
+}
+
+.LassPassword {
+  cursor: pointer;
+  color: #ffc632;
+  text-decoration: none;
+}
