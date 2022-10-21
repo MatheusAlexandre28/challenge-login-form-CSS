@@ -196,3 +196,7 @@ aside {
   color: #ffc632;
   text-decoration: none;
 }
+
+.LassPassword:hover {
+  text-decoration: underline;
+}
