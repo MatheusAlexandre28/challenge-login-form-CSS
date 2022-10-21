@@ -147,6 +147,7 @@ aside {
 .remeber {
   margin-left: 23px;
   opacity: .9;
+  cursor: pointer;
 }
 
 .inputCheckbox {
@@ -199,4 +200,13 @@ aside {
 
 .LassPassword:hover {
   text-decoration: underline;
+}
+
+.btn {
+  margin-top: 11px;
+  padding: 8px 130px 8px 130px;
+  background: #ffc632;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-radius: .3em;
 }
