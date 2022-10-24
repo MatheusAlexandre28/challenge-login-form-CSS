@@ -86,13 +86,19 @@ aside {
   border-radius: .2rem;
   color: #afb6c2;
 
-  width: 300px;
+  width: 330px;
   height: 40px;
   padding-left: 36px;
   outline: none;
 }
 
-.input:focus {
+.placeholderInput:focus {
+  background-image: url(./images/mail-focus.svg);
+  border: 2px solid #ffc632;
+}
+
+.placeholderInputPassword:focus {
+  background-image: url(./images/lock-focus.svg), url(./images/eye.svg);
   border: 2px solid #ffc632;
 }
 
@@ -209,4 +215,5 @@ aside {
   font-size: 1.1em;
   font-weight: 700;
   border-radius: .3em;
+  cursor: pointer;
 }
