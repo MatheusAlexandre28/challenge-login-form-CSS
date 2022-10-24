@@ -217,3 +217,15 @@ aside {
   border-radius: .3em;
   cursor: pointer;
 }
+
+.notAcount {
+  color: #ffc632;
+  font-size: ;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.notAcount:hover {
+  text-decoration: underline;
+}
