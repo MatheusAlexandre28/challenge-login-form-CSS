@@ -218,11 +218,20 @@ aside {
   cursor: pointer;
 }
 
+.notAconuCountainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .notAcount {
   color: #ffc632;
-  font-size: .8em;
+  font-size: .73em;
+  font-weight: 100;
   text-decoration: none;
   cursor: pointer;
+  margin-top: 10px;
+
 }
 
 
