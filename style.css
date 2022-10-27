@@ -246,6 +246,9 @@ aside {
 }
 
 /* media queries  vai aplicar no css caso o tamanho da pagina fique assim*/
-@media (max-width: 1139px){
-
+@media (max-width: 565px){
+  body {
+    position: fixed;
+    background: #24221f;
+  }
 }
