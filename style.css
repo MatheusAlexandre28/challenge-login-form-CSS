@@ -244,3 +244,8 @@ aside {
 .notAcount:hover {
   text-decoration: underline;
 }
+
+/* media queries  vai aplicar no css caso o tamanho da pagina fique assim*/
+@media (max-width: 1139px){
+
+}
