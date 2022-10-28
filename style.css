@@ -39,18 +39,19 @@ main {
   object-fit: cover;
 }
 
-aside {
+.aside {
   position: absolute;
-  background: #24221f;
-  height: 454px;
-  width: 510px;
+  height: 60vh;
 
-  margin-top: 174px;
-  margin-left: -5px;
-  padding: 40px 0px 0px 0px;
 
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+aside {
+  background: #24221f;
+  padding: 40px 40px 40px 40px;
 }
 
 .titleForm {
@@ -218,6 +219,7 @@ aside {
   margin-top: 11px;
   padding: 8px 130px 8px 130px;
   background: #ffc632;
+  border: none;
   font-size: 1.1em;
   font-weight: 700;
   border-radius: .3em;
