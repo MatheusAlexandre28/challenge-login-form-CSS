@@ -249,7 +249,6 @@ aside {
 /* media queries  vai aplicar no css caso o tamanho da pagina fique assim*/
 @media (max-width: 565px){
   body {
-    position: fixed;
     background: #24221f;
   }
 }
@@ -281,5 +280,11 @@ aside {
 @media (max-width: 606px){
   .carImg {
     width: 1%;
+  }
+}
+
+@media (max-width: 565px){
+  .carImg {
+    width: 0%;
   }
 }
