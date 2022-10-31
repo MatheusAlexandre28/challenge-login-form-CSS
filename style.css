@@ -288,3 +288,16 @@ aside {
     width: 0%;
   }
 }
+
+
+@media (max-width: 2560px){
+  aside {
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 1440px){
+  aside {
+    margin-left: 10%;
+  }
+}
