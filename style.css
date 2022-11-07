@@ -248,8 +248,10 @@ aside {
 
 /* media queries  vai aplicar no css caso o tamanho da pagina fique assim*/
 @media (max-width: 565px){
-  body {
-    background: #24221f;
+  aside {
+    height: 80%;
+    margin-top: -50px;
+    background: #191816;
   }
 }
 
